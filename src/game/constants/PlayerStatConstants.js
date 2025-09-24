@@ -4,14 +4,14 @@ define(['ash', 'game/GameGlobals', 'game/constants/PerkConstants'], function (As
 
 		VISION_BASE: 25,
 		VISION_BASE_SUNLIT: 50,
-		HEALTH_MINIMUM: 10,
-		HEALTH_TO_STAMINA_FACTOR: 10,
+		HEALTH_MINIMUM: 0.1,
+		HEALTH_TO_STAMINA_FACTOR: 50,
 		
-		MAX_SCOUT_LOCALE_STAMINA_COST: 500,
+		MAX_SCOUT_LOCALE_STAMINA_COST: 900,
 		STAMINA_GAINED_FROM_NAP: 100,
 		STAMINA_GAINED_FROM_NAP_2: 200,
 		STAMINA_GAINED_FROM_GROVE: 200,
-		STAMINA_GAINED_FROM_POTION_1: 500,
+		STAMINA_GAINED_FROM_POTION_1: 5000,
 
 		getStaminaWarningLimit: function (staminaComponent) {
 			var maxStamina = staminaComponent.maxStamina;
