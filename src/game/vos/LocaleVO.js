@@ -297,11 +297,11 @@ function (Ash, WorldConstants, ItemConstants, ResourcesVO, LocaleConstants, Play
 
 		getStressedProbability: function () {
 			switch (this.type) {
-				case localeTypes.house: return 0.1;
-				case localeTypes.bunker: return 0.1;
-				case localeTypes.lab: return 0.2;
-				case localeTypes.junkyard: return 0.3;
-				default: return 0;
+				case localeTypes.house: return 0.4;
+				case localeTypes.bunker: return 0.4;
+				case localeTypes.lab: return 0.5;
+				case localeTypes.junkyard: return 0.5;
+				default: return 0.2;
 			}
 		},
 		
