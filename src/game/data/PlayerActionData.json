@@ -5,8 +5,8 @@
         "fight_gang": 60,
         "investigate": 1,
         "launch": 600,
-        "scavenge": 9,
-        "scavenge_heap": 3,
+        "scavenge": 2,
+        "scavenge_heap": 1,
         "scout_locale_i": 60,
         "scout_locale_u": 60,
         "send_caravan": 600,
@@ -16,7 +16,7 @@
         "use_in_market": 360,
         "use_in_shrine": 600,
         "use_in_temple": 1200,
-        "use_spring": 60,
+        "use_spring": 13,
         "wait": 60
     },
     "costs": {
